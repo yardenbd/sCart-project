@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(168, 164, 164);
+}
+.menu {
+  height: 11vh;
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+h1 {
+  font-size: 200%;
+  font-family: "Architects Daughter", cursive;
+}
+.nav {
+  width: 100%;
+  text-align: center;
+}
+
+
+.shoes {
+  display: flex;
+  width: 100%;
+  margin-top: 6%;
+  justify-content: center;
+  justify-content: space-evenly;
+ 
+}
+
+
+
+.dropbtn {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  padding: 6px;
+  font-size: 25px;
+  border: 2px solid black;
+  border-radius: 5px;
+  justify-content: space-evenly;
+  text-decoration: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  padding: 0.5%;
+}
+
+.totalProductDiv{
+  font-size: 28px;
+  font-family: "Architects Daughter", cursive;
+  padding: -500px;
+}
+.castumerCart{
+  width:20%;
+ 
+}
+.totalcart{
+ font-size: 25px;
+  align-items: center;
+}
+
+.btn{
+  margin-left: 2px;
+}
+.btn-dark
+{
+  position: fixed;
+  font-family: "Architects Daughter", cursive;
+  background-color: white;
+  z-index: 2;
+  font-size: 170%;
+  right: 0;
+
+}
+.btn-secondary{
+border-radius: 30%;
+}
+
+.displayDiv{
+  display: flex;
+}
+.toast-body{
+  background-color: rgb(110, 207, 240);
+  border-radius: 15px;
+}
+
+.display{
+  margin-left: 42%;
+  font-family: "Architects Daughter", cursive;
+  font-size: 25px;
+}
+#displaySearch{
+display: flex;
+flex-wrap: wrap;
+width:100%;
+align-items: center;
+justify-content: space-evenly;
+}
+
+img{
+  width: 5rem;
+}
+
+.card-img-top{
+ width: 20rem;
+}
+.products{
+  display: flex;
+}
+.card{
+  width: 20rem;
+}

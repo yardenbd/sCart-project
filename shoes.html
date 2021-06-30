@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body style=" background-color: rgb(168, 164, 164);">
+  
+  
+  <div class="toast">
+    <div class="toast-body">
+     item added successfully
+    </div>
+  </div>
+
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+<div class="carousel-inner">
+  <div class="carousel-item active">
+    <div class="shoes" >
+        <!-- 1st line of shoes -->
+        <div class="card mb-3">
+          <img src="images/adidasultra.jpg" class="card-img-top"  alt="adidasultra" />
+          <div class="card-body">
+            <h5 class="card-title">Adidas Ultraboost 21</h5>
+            <p class="card-text">
+              an all-around shoe , produced by Adidas , with a soft sole and good foam the Ultraboost 
+              is one of the best running shoes in the world , making an impcat also on the fashion side. 
+            </p>
+            <div class="priceList">
+            <h4> price 180$</h3>
+            <button type="button" class="btn btn-secondary btn-sm" onclick="addToCart(0)">הוסף לסל</button>
+          </div>
+          </div>
+        </div>
+        <div class="card mb-3">
+          <img src="images/pegasus37.jpg" class="card-img-top" alt="pegasus37" />
+          <div class="card-body">
+            <h5 class="card-title">Nike Pegasus 37</h5>
+            <p class="card-text">
+             the Pegasus 37 , the next gen of the Pegasus family , a shoe which fit to a narrow legs and highly recommended
+             for begginers. the price - benefit ratio is one of the best in the market.
+            </p>
+            <div class="priceList">
+            <h4> price 150$</h3>
+            <button type="button" class="btn btn-secondary btn-sm" onclick="addToCart(1)">הוסף לסל</button>
+          </div>
+          </div>
+        </div>
+        <div class="card mb-3">
+          <img src="images/nb1080.jpg" class="card-img-top" alt="nb1080" />
+          <div class="card-body">
+            <h5 class="card-title">New Balance 1080</h5>
+            <p class="card-text">
+              the best long - run running shoe. the new 1080's of NB with a new fresh - foam technology , breaking the market 
+              for ine of the best running shoe which ever produced. 
+            </p>
+            <div class="priceList">
+              <h4>price 200$</h4>
+            <button type="button" class="btn btn-secondary btn-sm"onclick="addToCart(2)">הוסף לסל</button>
+          </div>
+        </div>
+        </div>
+        <div class="card mb-3">
+          <img src="images/ultraboost2020.jpg" class="card-img-top" alt="ultraboost2020" />
+          <div class="card-body">
+            <h5 class="card-title">adidas ultraboost 20</h5>
+            <p class="card-text">
+              The Adidas brand has a long history and a deep connection to sports. Everything we do is rooted in sports; Driven by a relentless pursuit of innovation, as well as decades of specialization in sports science.
+            </p>
+            <div class="priceList">
+              <h4>price 170$</h4>
+            <button type="button" class="btn btn-secondary btn-sm"onclick="addToCart(3)">הוסף לסל</button>
+          </div>
+          </div>
+        </div>
+        
+      </div>
+  </div>
+  <div class="carousel-item">
+      <!-- 2nd line -->
+    <div class="shoes" id="shoespop">
+        <div class="card mb-3">
+          <img src="images/reactvision.jpg" class="card-img-top" alt="reactvision" />
+          <div class="card-body">
+            <h5 class="card-title">nike react vision </h5>
+            <p class="card-text">
+                The Nike React Vision is a story of surreal comfort. Layered textures, shapes and vivid colours are combined in a design influenced by the exaggerated world of our dreams, while React foam and an ultra-plush tongue provide surreal comfort. 
+            </p>
+            <div class="priceList">
+            <h4> price 140$</h3>
+            <button type="button" class="btn btn-secondary btn-sm" onclick="addToCart(4)">הוסף לסל</button>
+          </div>
+          </div>
+        </div>
+        <div class="card mb-3">
+          <img src="images/saucony.jpg" class="card-img-top" alt="saucony" />
+          <div class="card-body">
+            <h5 class="card-title">saucony triumph 18</h5>
+            <p class="card-text">
+                Long runs get a quick and first-rate upgrade. For those who crave the ultimate in protective padding, the Triumph18 is the shoe
+                Our most padded with pwrrun technology, + it has been redesigned to give long runs a faster feel with each
+                The luxurious comfort you desire.
+            </p>
+            <div class="priceList">
+            <h4> price 160$</h3>
+            <button type="button" class="btn btn-secondary btn-sm" onclick="addToCart(5)">הוסף לסל</button>
+          </div>
+          </div>
+        </div>
+        <div class="card mb-3">
+          <img src="images/ultraboostblack.jpg" class="card-img-top" alt="nb1080" />
+          <div class="card-body">
+            <h5 class="card-title">adidas ultraboost 21</h5>
+            <p class="card-text">
+                an all-around shoe , produced by Adidas , with a soft sole and good foam the Ultraboost 
+              is one of the best running shoes in the world , making an impcat also on the fashion side. 
+            </p>
+            <div class="priceList">
+              <h4>price 180$</h4>
+            <button type="button" class="btn btn-secondary btn-sm"onclick="addToCart(6)">הוסף לסל</button>
+          </div>
+        </div>
+        </div>
+        <div class="card mb-3">
+          <img src="images/nb880.jpg" class="card-img-top" alt="ultraboost2020" />
+          <div class="card-body">
+            <h5 class="card-title">New Balance 880</h5>
+            <p class="card-text">
+                The 880v11 is a proven workhouse running shoe for kids that exceeds comfort expectations. The engineered double jacquard mesh allows for an intuitive, soft fit that doesn't restrict the runner while the midsole utilizes a super soft Fresh Foam to provide a plush underfoot ride for small feet. 
+            </p>
+            <div class="priceList">
+              <h4>price 150$</h4>
+            <button type="button" class="btn btn-secondary btn-sm"onclick="addToCart(7)">הוסף לסל</button>
+          </div>
+          </div>
+        </div>
+        
+      </div>
+  </div>
+
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev" style="width: 50px; color: black;">
+  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  <span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next" style="width: 50px; color: black;">
+  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  <span class="visually-hidden" style="color: black;">Next</span>
+</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

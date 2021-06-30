@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+  <link rel="stylesheet" href="style.css" />
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap"
+    rel="stylesheet"
+  />
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+    crossorigin="anonymous"
+  ></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  
+</head>
+<body >
+
+    <div class="toast">
+        <div class="toast-body">
+         item added successfully
+        </div>
+      </div>
+
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+<div class="carousel-inner">
+  <div class="carousel-item active">
+    <div class="shoes" id="shoespop">
+        <!-- 1st line of cloths -->
+        <div class="card mb-3">
+          <img src="images/adidasTshirtBlack.jpg" class="card-img-top" alt="adidasTshirtBlack" />
+          <div class="card-body">
+            <h5 class="card-title">Adidas T shirt Black</h5>
+            <p class="card-text">
+             
+            </p>
+            <div class="priceList">
+            <h4> price 40$</h3>
+            <button type="button" class="btn btn-secondary btn-sm" onclick="addToCart(8)">הוסף לסל</button>
+          </div>
+          </div>
+        </div>
+        <div class="card mb-3">
+          <img src="images/adidasTshirtgray.jpg" class="card-img-top" alt="adidasTshirtgray" />
+          <div class="card-body">
+            <h5 class="card-title">Adidas T shirt gray</h5>
+            <p class="card-text">
+            
+            </p>
+            <div class="priceList">
+            <h4> price 40$</h3>
+            <button type="button" class="btn btn-secondary btn-sm" onclick="addToCart(9)">הוסף לסל</button>
+          </div>
+          </div>
+        </div>
+        <div class="card mb-3">
+          <img src="images/adidasTshirtwhite.jpg" class="card-img-top" alt="adidasTshirtwhite" />
+          <div class="card-body">
+            <h5 class="card-title">adidas T shirt white</h5>
+            <p class="card-text">
+             
+            </p>
+            <div class="priceList">
+              <h4>price 40$</h4>
+            <button type="button" class="btn btn-secondary btn-sm"onclick="addToCart(10)">הוסף לסל</button>
+          </div>
+        </div>
+        </div>
+        <div class="card mb-3">
+          <img src="images/nikeTshirtblue.jpg" class="card-img-top" alt="nikeTshirtblue" />
+          <div class="card-body">
+            <h5 class="card-title">nike T shirt blue</h5>
+            <p class="card-text">
+             
+            </p>
+            <div class="priceList">
+              <h4>price 25$</h4>
+            <button type="button" class="btn btn-secondary btn-sm"onclick="addToCart(11)">הוסף לסל</button>
+          </div>
+          </div>
+        </div>
+        
+      </div>
+  </div>
+  <div class="carousel-item">
+      <!-- 2nd line -->
+    <div class="shoes" id="shoespop">
+        <div class="card mb-3">
+          <img src="images/nikeJordan.jpg" class="card-img-top" alt="nikeJordan" />
+          <div class="card-body">
+            <h5 class="card-title">jordan T shirt </h5>
+            <p class="card-text">
+              
+            </p>
+            <div class="priceList">
+            <h4> price 40$</h3>
+            <button type="button" class="btn btn-secondary btn-sm" onclick="addToCart(12)">הוסף לסל</button>
+          </div>
+          </div>
+        </div>
+        <div class="card mb-3">
+          <img src="images/jordanshorts.jpg" class="card-img-top" alt="jordanshorts" />
+          <div class="card-body">
+            <h5 class="card-title">jordan shorts </h5>
+            <p class="card-text">
+               
+            </p>
+            <div class="priceList">
+            <h4> price 35$</h3>
+            <button type="button" class="btn btn-secondary btn-sm" onclick="addToCart(13)">הוסף לסל</button>
+          </div>
+          </div>
+        </div>
+        <div class="card mb-3">
+          <img src="images/adidasShorts.jpg" class="card-img-top" alt="adidasShorts" />
+          <div class="card-body">
+            <h5 class="card-title">adidas Shorts</h5>
+            <p class="card-text">
+                
+            </p>
+            <div class="priceList">
+              <h4>price 35$</h4>
+            <button type="button" class="btn btn-secondary btn-sm"onclick="addToCart(14)">הוסף לסל</button>
+          </div>
+        </div>
+        </div>
+        <div class="card mb-3">
+          <img src="images/nikeshorts.jpg" class="card-img-top" alt="nikeshorts" />
+          <div class="card-body">
+            <h5 class="card-title">nike shorts</h5>
+            <p class="card-text">
+              
+            </p>
+            <div class="priceList">
+              <h4>price 35$</h4>
+            <button type="button" class="btn btn-secondary btn-sm"onclick="addToCart(15)">הוסף לסל</button>
+          </div>
+          </div>
+        </div>
+        
+      </div>
+  </div>
+
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev" style="width: 50px; color: black;">
+  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  <span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next" style="width: 50px; color: black;">
+  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  <span class="visually-hidden" style="color: black;">Next</span>
+</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
